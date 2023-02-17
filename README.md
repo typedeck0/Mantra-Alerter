@@ -3,8 +3,11 @@ Will alert you to prepare your mantras.
 
 - [x] A firebrand in your squad died or You (firebrand) died.
 - [x] You are out of combat.
-- [x] You swapped maps.
 - [x] Arcdps stoppped logging.
+
+OR
+
+- [x] You swapped maps.
 
 #### Stop! Mantra Time!
 
