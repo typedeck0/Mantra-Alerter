@@ -18,6 +18,7 @@ then in-game open the arcdps options window (alt-shift-t)
 
 in the Extensions tab under Manta Alert should be options to change addon behavior.
 
+![image](https://user-images.githubusercontent.com/113395677/219540258-98bd6764-e342-48b3-a7b6-684eb5fe0b94.png)
 
 ## Use:
 TODO
