@@ -1,4 +1,4 @@
-# Know-thy-enemy
+# Mantra-Alerter
 TODO with pics
 
 ## Build
