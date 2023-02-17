@@ -1,4 +1,4 @@
-# Mantra-Alerter
+# Mantra-Alerter [WvW]
 <b>⚠️⚠️⚠️ TO DISMISS ALERT RAGE CLICK IT (spam/rapid click)⚠️⚠️⚠️</b>
 
 
