@@ -1,5 +1,11 @@
 # Mantra-Alerter
-TODO with pics
+Will alert you to prepare your mantras. 
+
+- [x] A firebrand in your squad died or You (firebrand) died.
+- [x] You are out of combat.
+- [x] Arcdps stoppped logging.
+
+#### Mantra Time
 
 ## Build
 targeting [ImGui 1.8](https://github.com/ocornut/imgui/tree/v1.80)
