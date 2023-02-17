@@ -1,5 +1,7 @@
 # Mantra-Alerter
-<b> TO DISMISS ALERT RAGE CLICK (spam click) IT </b>
+<b>⚠️⚠️⚠️ TO DISMISS ALERT RAGE CLICK IT (spam/rapid click)⚠️⚠️⚠️</b>
+
+
 Will alert you to prepare your mantras. Unfortunately arcdps does not provide ability cooldowns in realtime so I had to work around that limitation. 
 
 - [x] A firebrand in your squad died <b>OR</b> You (firebrand) died.
