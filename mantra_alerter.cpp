@@ -222,7 +222,6 @@ uintptr_t mod_wnd(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	if ((get_ui_settings() >> 2) & 1)
 	{
-		std::lock_guard<std::mutex>lock(mtx);
 		wFlags |= ImGuiWindowFlags_NoMove;
 		if (uMsg == WM_KEYDOWN || uMsg == WM_SYSKEYDOWN) 
 		{
@@ -268,7 +267,6 @@ uintptr_t my_id = 0;
 /* at least one participant will be party/squad or minion of, or a buff applied by squad in the case of buff remove. not all statechanges present, see evtc statechange enum */
 uintptr_t mod_combat(cbtevent* ev, ag* src, ag* dst, char* skillname, uint64_t id, uint64_t revision) 
 {
-	std::lock_guard<std::mutex>lock(mtx);
 	if (!ev)
 	{
 		if (!src->elite) 
@@ -373,7 +371,6 @@ uintptr_t imgui_proc(uint32_t not_charsel_or_loading, uint32_t hide_if_combat_or
 			DoFitTextToWindow(big_font, "Stop! Mantra Time!");
 			if (ImGui::IsItemHovered() && ImGui::IsMouseDoubleClicked(0))
 			{
-				std::lock_guard<std::mutex>lock(mtx);
 				firebrand_died = false;
 				arc_end = false;
 				ooc = true;
