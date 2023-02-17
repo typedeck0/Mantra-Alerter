@@ -1,11 +1,11 @@
 # Mantra-Alerter
 Will alert you to prepare your mantras. 
 
-- [x] A firebrand in your squad died OR You (firebrand) died.
+- [x] A firebrand in your squad died <b>OR</b> You (firebrand) died.
 - [x] You are out of combat.
 - [x] Arcdps stoppped logging.
 
-OR
+<b>OR</b>
 
 - [x] You swapped maps.
 
